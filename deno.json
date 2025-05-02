@@ -1,0 +1,15 @@
+{
+  "nodeModulesDir": "auto",
+  "lint": { "rules": { "tags": [] } },
+  "imports": {
+    "solid-js": "npm:solid-js",
+    "solid-js/web": "npm:solid-js/web",
+    "solid-js/jsx-runtime": "npm:solid-js/jsx-runtime"
+  },
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "solid-js",
+    "strict": true
+  }
+}
