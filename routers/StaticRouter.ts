@@ -1,5 +1,5 @@
-import type { JSX } from "solid-js";
-import { type RequestEvent, getRequestEvent } from "solid-js/web";
+import type { JSX } from "npm:solid-js";
+import { type RequestEvent, getRequestEvent } from "npm:solid-js/web";
 import { type BaseRouterProps, createRouterComponent } from "./components.tsx";
 
 function getPath(url: string) {

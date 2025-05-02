@@ -1,4 +1,4 @@
-import { type Signal, createSignal, onCleanup, sharedConfig } from "solid-js";
+import { type Signal, createSignal, onCleanup, sharedConfig } from "npm:solid-js";
 import type { LocationChange, RouterContext, RouterUtils } from "../types.ts";
 import { createRouterComponent } from "./components.tsx";
 

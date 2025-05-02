@@ -1,4 +1,4 @@
-import { isServer } from "solid-js/web";
+import { isServer } from "npm:solid-js/web";
 import type {
   BeforeLeaveLifecycle,
   BeforeLeaveListener,

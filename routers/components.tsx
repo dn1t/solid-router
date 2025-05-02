@@ -1,6 +1,6 @@
 /*@refresh skip*/
 
-import type { Component, JSX, Owner } from "solid-js";
+import type { Component, JSX, Owner } from "npm:solid-js";
 import {
   children,
   createMemo,
@@ -10,8 +10,8 @@ import {
   on,
   Show,
   untrack,
-} from "solid-js";
-import { type RequestEvent, getRequestEvent, isServer } from "solid-js/web";
+} from "npm:solid-js";
+import { type RequestEvent, getRequestEvent, isServer } from "npm:solid-js/web";
 import {
   createBranches,
   createRouteContext,

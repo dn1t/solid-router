@@ -1,10 +1,10 @@
 /*@refresh skip*/
-import { type JSX, createMemo, mergeProps, splitProps } from "solid-js";
+import { type JSX, createMemo, mergeProps, splitProps } from "npm:solid-js";
 import { useHref, useLocation, useNavigate, useResolvedPath } from "./routing.ts";
 import type { Location, Navigator } from "./types.ts";
 import { normalizePath } from "./utils.ts";
 
-declare module "solid-js" {
+declare module "npm:solid-js" {
   namespace JSX {
     interface AnchorHTMLAttributes<T> {
       state?: string;

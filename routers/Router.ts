@@ -1,5 +1,5 @@
-import type { JSX } from "solid-js";
-import { isServer } from "solid-js/web";
+import type { JSX } from "npm:solid-js";
+import { isServer } from "npm:solid-js/web";
 import { setupNativeEvents } from "../data/events";
 import {
   createBeforeLeave,

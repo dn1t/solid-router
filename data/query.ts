@@ -6,8 +6,8 @@ import {
   sharedConfig,
   type Signal,
   startTransition,
-} from "solid-js";
-import { getRequestEvent, isServer } from "solid-js/web";
+} from "npm:solid-js";
+import { getRequestEvent, isServer } from "npm:solid-js/web";
 import { getInPreloadFn, getIntent, useNavigate } from "../routing.ts";
 import type { CacheEntry, NarrowResponse } from "../types.ts";
 

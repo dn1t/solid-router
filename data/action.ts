@@ -1,5 +1,5 @@
-import { $TRACK, createMemo, createSignal, getOwner, type JSX, onCleanup } from "solid-js";
-import { isServer } from "solid-js/web";
+import { $TRACK, createMemo, createSignal, getOwner, type JSX, onCleanup } from "npm:solid-js";
+import { isServer } from "npm:solid-js/web";
 import { useRouter } from "../routing.ts";
 import type {
   NarrowResponse,

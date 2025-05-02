@@ -1,6 +1,6 @@
-import type { Component, JSX, Signal } from "solid-js";
+import type { Component, JSX, Signal } from "npm:solid-js";
 
-declare module "solid-js/web" {
+declare module "npm:solid-js/web" {
   interface RequestEvent {
     response: {
       status?: number;

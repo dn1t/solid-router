@@ -1,4 +1,4 @@
-import { createMemo, getOwner, runWithOwner } from "solid-js";
+import { createMemo, getOwner, runWithOwner } from "npm:solid-js";
 import type {
   MatchFilter,
   MatchFilters,

@@ -1,9 +1,9 @@
 /**
  * This is mock of the eventual Solid 2.0 primitive. It is not fully featured.
  */
-import { type Accessor, createResource, type Setter, sharedConfig, untrack } from "solid-js";
-import { createStore, reconcile, type ReconcileOptions, unwrap } from "solid-js/store";
-import { isServer } from "solid-js/web";
+import { type Accessor, createResource, type Setter, sharedConfig, untrack } from "npm:solid-js";
+import { createStore, reconcile, type ReconcileOptions, unwrap } from "npm:solid-js/store";
+import { isServer } from "npm:solid-js/web";
 
 /**
  * As `createAsync` and `createAsyncStore` are wrappers for `createResource`,
