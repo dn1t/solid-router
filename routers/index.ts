@@ -1,11 +1,11 @@
-export { Route } from "./components";
-export type { BaseRouterProps, RouteProps } from "./components";
-export { createRouter } from "./createRouter";
-export { HashRouter } from "./HashRouter";
-export type { HashRouterProps } from "./HashRouter";
-export { createMemoryHistory, MemoryRouter } from "./MemoryRouter";
-export type { MemoryHistory, MemoryRouterProps } from "./MemoryRouter";
-export { Router } from "./Router";
-export type { RouterProps } from "./Router";
-export { StaticRouter } from "./StaticRouter";
-export type { StaticRouterProps } from "./StaticRouter";
+export { Route, type BaseRouterProps, type RouteProps } from "./components.tsx";
+export { createRouter } from "./createRouter.ts";
+export { HashRouter, type HashRouterProps } from "./HashRouter.ts";
+export {
+  createMemoryHistory,
+  MemoryRouter,
+  type MemoryHistory,
+  type MemoryRouterProps,
+} from "./MemoryRouter.ts";
+export { Router, type RouterProps } from "./Router.ts";
+export { StaticRouter, type StaticRouterProps } from "./StaticRouter.ts";

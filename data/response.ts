@@ -1,4 +1,4 @@
-import type { CustomResponse, RouterResponseInit } from "../types";
+import type { CustomResponse, RouterResponseInit } from "../types.ts";
 
 export function redirect(url: string, init: number | RouterResponseInit = 302) {
   let responseInit: ResponseInit;

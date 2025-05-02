@@ -1,8 +1,8 @@
 import type { JSX } from "solid-js";
 import { setupNativeEvents } from "../data/events";
-import type { LocationChange } from "../types";
-import type { BaseRouterProps } from "./components";
-import { createRouter, scrollToHash } from "./createRouter";
+import type { LocationChange } from "../types.ts";
+import type { BaseRouterProps } from "./components.tsx";
+import { createRouter, scrollToHash } from "./createRouter.ts";
 
 export type MemoryHistory = {
   get: () => string;

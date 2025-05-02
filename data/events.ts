@@ -1,8 +1,8 @@
 import { onCleanup } from "solid-js";
 import { delegateEvents } from "solid-js/web";
-import type { RouterContext } from "../types";
-import { mockBase } from "../utils";
-import { actions } from "./action";
+import type { RouterContext } from "../types.ts";
+import { mockBase } from "../utils.ts";
+import { actions } from "./action.ts";
 
 export function setupNativeEvents(
   preload = true,

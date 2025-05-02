@@ -1,10 +1,15 @@
 import type { JSX } from "solid-js";
 import { isServer } from "solid-js/web";
 import { setupNativeEvents } from "../data/events";
-import { createBeforeLeave, keepDepth, notifyIfNotBlocked, saveCurrentDepth } from "../lifecycle";
-import type { BaseRouterProps } from "./components";
-import { bindEvent, createRouter, scrollToHash } from "./createRouter";
-import { StaticRouter } from "./StaticRouter";
+import {
+  createBeforeLeave,
+  keepDepth,
+  notifyIfNotBlocked,
+  saveCurrentDepth,
+} from "../lifecycle.ts";
+import type { BaseRouterProps } from "./components.tsx";
+import { bindEvent, createRouter, scrollToHash } from "./createRouter.ts";
+import { StaticRouter } from "./StaticRouter.ts";
 
 export type RouterProps = BaseRouterProps & {
   url?: string;
@@ -57,7 +62,7 @@ export function Router(props: RouterProps): JSX.Element {
       props.transformUrl,
     ),
     utils: {
-      go: (delta) => window.history.go(delta),
+      go: (delta: any) => window.history.go(delta),
       beforeLeave,
     },
   })(props);

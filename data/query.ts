@@ -8,8 +8,8 @@ import {
   startTransition,
 } from "solid-js";
 import { getRequestEvent, isServer } from "solid-js/web";
-import { getInPreloadFn, getIntent, useNavigate } from "../routing";
-import type { CacheEntry, NarrowResponse } from "../types";
+import { getInPreloadFn, getIntent, useNavigate } from "../routing.ts";
+import type { CacheEntry, NarrowResponse } from "../types.ts";
 
 const LocationHeader = "Location";
 const PRELOAD_TIMEOUT = 5000;

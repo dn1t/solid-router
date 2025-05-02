@@ -6,7 +6,7 @@ import type {
   RouteDescription,
   SearchParams,
   SetSearchParams,
-} from "./types";
+} from "./types.ts";
 
 const hasSchemeRegex = /^(?:[a-z0-9]+:)?\/\//i;
 const trimPathRegex = /^\/+|(\/)\/+$/g;

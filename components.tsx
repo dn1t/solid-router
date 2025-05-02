@@ -1,9 +1,8 @@
 /*@refresh skip*/
-import type { JSX } from "solid-js";
-import { createMemo, mergeProps, splitProps } from "solid-js";
-import { useHref, useLocation, useNavigate, useResolvedPath } from "./routing";
-import type { Location, Navigator } from "./types";
-import { normalizePath } from "./utils";
+import { type JSX, createMemo, mergeProps, splitProps } from "solid-js";
+import { useHref, useLocation, useNavigate, useResolvedPath } from "./routing.ts";
+import type { Location, Navigator } from "./types.ts";
+import { normalizePath } from "./utils.ts";
 
 declare module "solid-js" {
   namespace JSX {

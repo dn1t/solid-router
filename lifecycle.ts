@@ -4,7 +4,7 @@ import type {
   BeforeLeaveListener,
   LocationChange,
   NavigateOptions,
-} from "./types";
+} from "./types.ts";
 
 export function createBeforeLeave(): BeforeLeaveLifecycle {
   const listeners = new Set<BeforeLeaveListener>();

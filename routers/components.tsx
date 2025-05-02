@@ -21,7 +21,7 @@ import {
   RouteContextObj,
   RouterContextObj,
   setInPreloadFn,
-} from "../routing";
+} from "../routing.ts";
 import type {
   Branch,
   MatchFilters,
@@ -31,7 +31,7 @@ import type {
   RouterContext,
   RouterIntegration,
   RouteSectionProps,
-} from "../types";
+} from "../types.ts";
 
 export type BaseRouterProps = {
   base?: string;

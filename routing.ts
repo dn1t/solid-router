@@ -16,7 +16,7 @@ import {
   useContext,
 } from "solid-js";
 import { getRequestEvent, isServer } from "solid-js/web";
-import { createBeforeLeave } from "./lifecycle";
+import { createBeforeLeave } from "./lifecycle.ts";
 import type {
   BeforeLeaveEventArgs,
   Branch,
@@ -37,7 +37,7 @@ import type {
   SearchParams,
   SetSearchParams,
   Submission,
-} from "./types";
+} from "./types.ts";
 import {
   createMatcher,
   createMemoObject,
@@ -49,7 +49,7 @@ import {
   mockBase,
   resolvePath,
   scoreRoute,
-} from "./utils";
+} from "./utils.ts";
 
 const MAX_REDIRECTS = 100;
 

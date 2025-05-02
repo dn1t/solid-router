@@ -1,15 +1,15 @@
 import { $TRACK, createMemo, createSignal, getOwner, type JSX, onCleanup } from "solid-js";
 import { isServer } from "solid-js/web";
-import { useRouter } from "../routing";
+import { useRouter } from "../routing.ts";
 import type {
   NarrowResponse,
   Navigator,
   RouterContext,
   Submission,
   SubmissionStub,
-} from "../types";
-import { mockBase } from "../utils";
-import { cacheKeyOp, hashKey, query, revalidate } from "./query";
+} from "../types.ts";
+import { mockBase } from "../utils.ts";
+import { cacheKeyOp, hashKey, query, revalidate } from "./query.ts";
 
 export type Action<T extends Array<any>, U, V = T> = (T extends [FormData] | []
   ? JSX.SerializableAttributeValue

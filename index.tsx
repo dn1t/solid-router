@@ -1,7 +1,7 @@
-export * from "./components";
-export * from "./data";
-export * from "./lifecycle";
-export * from "./routers";
+export * from "./components.tsx";
+export * from "./data/index.ts";
+export * from "./lifecycle.ts";
+export * from "./routers/index.ts";
 export {
   useBeforeLeave,
   useCurrentMatches,
@@ -14,7 +14,7 @@ export {
   usePreloadRoute,
   useResolvedPath,
   useSearchParams,
-} from "./routing";
+} from "./routing.ts";
 export type {
   BeforeLeaveEventArgs,
   CustomResponse,
@@ -41,5 +41,5 @@ export type {
   SearchParams,
   SetParams,
   Submission,
-} from "./types";
-export { mergeSearchString as _mergeSearchString } from "./utils";
+} from "./types.ts";
+export { mergeSearchString as _mergeSearchString } from "./utils.ts";

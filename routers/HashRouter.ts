@@ -1,8 +1,13 @@
 import type { JSX } from "solid-js";
-import { setupNativeEvents } from "../data/events";
-import { createBeforeLeave, keepDepth, notifyIfNotBlocked, saveCurrentDepth } from "../lifecycle";
-import type { BaseRouterProps } from "./components";
-import { bindEvent, createRouter, scrollToHash } from "./createRouter";
+import { setupNativeEvents } from "../data/events.ts";
+import {
+  createBeforeLeave,
+  keepDepth,
+  notifyIfNotBlocked,
+  saveCurrentDepth,
+} from "../lifecycle.ts";
+import type { BaseRouterProps } from "./components.tsx";
+import { bindEvent, createRouter, scrollToHash } from "./createRouter.ts";
 
 export function hashParser(str: string) {
   const to = str.replace(/^.*?#/, "");
@@ -49,8 +54,8 @@ export function HashRouter(props: HashRouterProps): JSX.Element {
       ),
     create: setupNativeEvents(props.preload, props.explicitLinks, props.actionBase),
     utils: {
-      go: (delta) => window.history.go(delta),
-      renderPath: (path) => `#${path}`,
+      go: (delta: any) => window.history.go(delta),
+      renderPath: (path: any) => `#${path}`,
       parsePath: hashParser,
       beforeLeave,
     },
