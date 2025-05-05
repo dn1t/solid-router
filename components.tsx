@@ -1,5 +1,5 @@
 /*@refresh skip*/
-import { type JSX, createMemo, mergeProps, splitProps } from "npm:solid-js";
+import { type JSX, createMemo, mergeProps, splitProps } from "solid-js";
 import { useHref, useLocation, useNavigate, useResolvedPath } from "./routing.ts";
 import type { Location, Navigator } from "./types.ts";
 import { normalizePath } from "./utils.ts";

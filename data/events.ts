@@ -1,5 +1,5 @@
-import { onCleanup } from "npm:solid-js";
-import { delegateEvents } from "npm:solid-js/web";
+import { onCleanup } from "solid-js";
+import { delegateEvents } from "solid-js/web";
 import type { RouterContext } from "../types.ts";
 import { mockBase } from "../utils.ts";
 import { actions } from "./action.ts";

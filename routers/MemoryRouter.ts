@@ -1,4 +1,4 @@
-import type { JSX } from "npm:solid-js";
+import type { JSX } from "solid-js";
 import { setupNativeEvents } from "../data/events";
 import type { LocationChange } from "../types.ts";
 import type { BaseRouterProps } from "./components.tsx";

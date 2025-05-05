@@ -14,8 +14,8 @@ import {
   startTransition,
   untrack,
   useContext,
-} from "npm:solid-js";
-import { getRequestEvent, isServer } from "npm:solid-js/web";
+} from "solid-js";
+import { getRequestEvent, isServer } from "solid-js/web";
 import { createBeforeLeave } from "./lifecycle.ts";
 import type {
   BeforeLeaveEventArgs,
