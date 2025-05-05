@@ -1,5 +1,5 @@
 import type { JSX } from "solid-js";
-import { setupNativeEvents } from "../data/events";
+import { setupNativeEvents } from "../data/events.ts";
 import type { LocationChange } from "../types.ts";
 import type { BaseRouterProps } from "./components.tsx";
 import { createRouter, scrollToHash } from "./createRouter.ts";
